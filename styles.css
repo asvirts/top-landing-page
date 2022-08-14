@@ -5,24 +5,19 @@ body {
 
 .container {
     display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+}
+
+p {
+    justify-content: center;
 }
 
 
 /* Top */
-
-.navbar {
-    justify-content: space-between;
-    justify-content: center;
-}
-
-.links {
-    
-}
-
-.top-content {
-    justify-content: space-between;
-    justify-content: center;
-}
 
 .header {
     background-color: #1f2937;
@@ -35,8 +30,26 @@ body {
     height: 16em;
 }
 
+h1 {
+    justify-content: space-between;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
 ul {
     display: flex;
+    gap: 3em;
+
+    list-style: none;
+}
+
+.top-content {
+    background-color: #1f2937;
+    color: #f9faf8;
+
+    width: 100%;
 }
 
 
@@ -50,6 +63,7 @@ ul {
     align-items: center;
 
     height: 20em;
+    width: 100%;
 }
 
 
@@ -63,6 +77,7 @@ ul {
     align-items: center;
 
     height: 20em;
+    width: 100%;
 }
 
 .quote-box-1 {
@@ -84,7 +99,7 @@ ul {
 
 /* Call to Action */
 
-.call {
+#call {
     background-color: #f9faf8;
     color: #1f2937;
 
@@ -92,6 +107,7 @@ ul {
     align-items: center;
 
     height: 17.5em;
+    width: 100%;
 }
 
 .call-box {
@@ -100,7 +116,7 @@ ul {
 
     border-radius: 12px;
 
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     
     height: 8em;
@@ -112,7 +128,7 @@ ul {
 
 /* Footer */
 
-.footer {
+footer {
     background: #1f2937;
 
     justify-content: center;
