@@ -5,11 +5,6 @@ body {
 
 .container {
     display: flex;
-
-    justify-content: center;
-    align-items: center;
-
-    width: 50%;
 }
 
 p {
@@ -17,7 +12,7 @@ p {
 
     flex-wrap: wrap;
 
-    width: 50%;
+    width: 10%;
 }
 
 
@@ -31,7 +26,7 @@ p {
     justify-content: center;
     align-items: flex-start;
 
-    height: 6em;
+    height: 16em;
 }
 
 h1 {
@@ -53,17 +48,24 @@ ul {
     background-color: #1f2937;
     color: #f9faf8;
 
-    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     height: 16em;
     width: 100%;
 }
 
 img {
-    
-    
     height: auto;
     width: 35%;
+}
+
+.flex-column {
+    flex-direction:column;
+}
+
+.column-item {
+    flex-basis:100%;
 }
 
 
@@ -73,7 +75,7 @@ img {
     background-color: #f9faf8;
     color: #1f2937;
 
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 
     height: 20em;
@@ -81,7 +83,7 @@ img {
 }
 
 .random-box {
-    justify-items: center;
+    align-content: center;
 }
 
 .random-col {
