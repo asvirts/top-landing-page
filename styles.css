@@ -16,7 +16,7 @@ body {
 }
 
 .links {
-justify-content: baseline;
+    
 }
 
 .top-content {
@@ -33,6 +33,10 @@ justify-content: baseline;
     align-items: center;
 
     height: 16em;
+}
+
+ul {
+    display: flex;
 }
 
 
