@@ -8,26 +8,35 @@ body {
 }
 
 
+/* Top */
 
 .navbar {
     justify-content: space-between;
     justify-content: center;
+}
 
+.links {
+justify-content: baseline;
 }
 
 .top-content {
-
+    justify-content: space-between;
+    justify-content: center;
 }
 
 .header {
     background-color: #1f2937;
     color: #f9faf8;
 
+    display: flex;
     justify-content: center;
     align-items: center;
 
     height: 16em;
 }
+
+
+/* Random */
 
 .random {
     background-color: #f9faf8;
@@ -36,18 +45,40 @@ body {
     justify-content: center;
     align-items: center;
 
-    height: 16em;
+    height: 20em;
 }
 
+
+/* Quote */
+
 .quote {
-    background-color: #f9faf8;
+    background-color: #e5e7eb;
     color: #1f2937;
 
     justify-content: center;
     align-items: center;
 
-    height: 16em;
+    height: 20em;
 }
+
+.quote-box-1 {
+    justify-content: center;
+    align-items: center;
+    
+    width: 50%;
+}
+
+.quote-box-2 {
+    justify-content: center;
+    align-items: center;
+    
+    width: 50%;
+
+    text-align: center;
+}
+
+
+/* Call to Action */
 
 .call {
     background-color: #f9faf8;
@@ -56,8 +87,26 @@ body {
     justify-content: center;
     align-items: center;
 
-    height: 16em;
+    height: 17.5em;
 }
+
+.call-box {
+    background-color: #3882f6;
+    color: #f9faf8;
+
+    border-radius: 12px;
+
+    justify-content: flex-start;
+    align-items: center;
+    
+    height: 8em;
+    width: 50%;
+
+    text-align: center;
+}
+
+
+/* Footer */
 
 .footer {
     background: #1f2937;
@@ -66,8 +115,4 @@ body {
     align-items: center;
 
     height: 7em;
-}
-
-ul {
-    flex-direction: column;
 }
